@@ -1,9 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T11:39:27.830Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.8.2" etag="t5F2al-GxiiqUL-WBDsu" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T12:37:02.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="prK0rBM--qubO5-M69-x" version="21.8.2" type="github">
   <diagram name="Page-1" id="SWW22hSkij6ccrwzYJ-H">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="669" y="397" width="47.25" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="524" y="152" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7BIa2nDnXhnoFP-Irhp-4" target="i7BIa2nDnXhnoFP-Irhp-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="186" />
+              <mxPoint x="470" y="186" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="1">
+          <mxGeometry x="289" y="151" width="65.63" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7BIa2nDnXhnoFP-Irhp-6" target="i7BIa2nDnXhnoFP-Irhp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Users.svg;" vertex="1" parent="1">
+          <mxGeometry x="138.48000000000002" y="398" width="54.86" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.523;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i7BIa2nDnXhnoFP-Irhp-12" target="i7BIa2nDnXhnoFP-Irhp-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="256" as="sourcePoint" />
+            <mxPoint x="220" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.492;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="183" as="sourcePoint" />
+            <mxPoint x="698.4499999999999" y="396" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.web_browser;" vertex="1" parent="1">
+          <mxGeometry x="130" y="158" width="71.83" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-15" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Azure AD&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="276" y="220" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-16" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Web Browser&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="54" y="224" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-17" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="134.34" y="457" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-18" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Web Application&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="419" y="222" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-19" value="PostgreSQL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="647" y="463" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-21" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Container_Registries.svg;" vertex="1" parent="1">
+          <mxGeometry x="520.54" y="398" width="72.46" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-23" value="Azure Container Registry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="459" y="463" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i7BIa2nDnXhnoFP-Irhp-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-25" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="1">
+          <mxGeometry x="740" y="187" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="i7BIa2nDnXhnoFP-Irhp-28" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Key Vault&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="735" y="262" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
